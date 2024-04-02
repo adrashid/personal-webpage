@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Project 3 - Dr Adnan Rashid</title>
+  <title>Project 7 - Dr Adnan Rashid</title>
   <meta name="description" content="Compuational Physics Group at Georgia Tech CSE">
   <link rel="stylesheet" href="asset/main.css">
   <link rel="canonical" href="/research/">
@@ -56,7 +56,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Project 3 - Dr Adnan Rashid</title>
+<title>Project 7 - Dr Adnan Rashid</title>
 <meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="Research" />
 <meta property="og:locale" content="en_US" />
@@ -137,7 +137,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="row">
         <div id="gridid" class="col-sm-12 col-xs-12" style="margin-top:20px">
   
-<center><h4 style="color:#006699; font-size:20px; font-weight:400; letter-spacing:0.2px;" id="research">Formalization of Transform Methods using HOL Light</b></h4></center>
+<center><h4 style="color:#006699; font-size:20px; font-weight:400; letter-spacing:0.2px;" id="research">Formal Analysis of 2D Image Processing Filters using Theorem Proving</b></h4></center>
 
 <style>
 img{
@@ -182,14 +182,16 @@ iframe {
 	padding-right:20px;
 	padding-bottom:20px;
 	
-	">Algebraic techniques based on transform methods are widely used for solving differential equations and evaluating transfer function, and frequency response of signals while
-	analyzing physical aspects of many safety-critical systems. To facilitate formal analysis of these systems, we present the formalization of transform methods (Laplace and 
-	Fourier transforms) using the multivariable calculus theories of HOL Light. In particular, we use integral, differential, transcendental and topological theories of
-	multivariable calculus to formally define transform methods in higher-order logic and reason about the correctness of their properties, such as existence, linearity, frequency
-	shifting, modulation, time shifting, time scaling, differentiation and integration in time domain, relationship of Laplace transform with Fourier transform and relationship of
-	Fourier transform with Fourier Cosine and Fourier Sine transforms. In order to demonstrate the practical effectiveness of this formalization, we use it to formally verify some
-	commonly used electrical circuits, an automobile suspension system, an audio equalizer, a MEMs accelerometer, controllers and compensators, 4-π soft error crosstalk model and
-	pitch control of an unmanned free swimming submersible vehicle.</p>
+	">Two-dimensional (2D) image processing systems are concerned with the processing of the images represented as 2D arrays and 
+		  are widely used in medicine, transportation and many other autonomous systems. 
+		  The dynamics of these systems are generally modeled using 2D difference equations, which are mathematically analyzed using the 2D z-transform. 
+		  It mainly involves a transformation of the difference equations-based models of these systems to their corresponding algebraic equations, 
+		  mapping the 2D arrays (2D discrete-time signals) over the (z1,z2)-domain. Finally, these (z1,z2)-domain representations are used to analyze various 
+		  properties of these systems, such as transfer function and stability.
+		  In this project, we propose to use formal methods, higher-order logic (HOL) theorem proving, for formally analyzing the image processing filters. 
+		  In particular, we formalize the 2D z-transform based on the multivariate theories of calculus using the HOL Light theorem prover. 
+		   Moreover, we formally analyze a generic (L1,L2)-order 2D infinite impulse response image processing filter. 
+		  We illustrate the practical effectiveness of our proposed approach by formally analyzing a second-order image processing filter.</p>
 
 
 <h4 id="research" style="color:#006699; letter-spacing:1px;  margin-left:8px; margin-bottom:20px;margin-top:-25px; ">Framework</h4>
@@ -198,7 +200,7 @@ iframe {
 
 
 <h4 id="research" style="color:#006699; letter-spacing:1px;  margin-left:8px;margin-top:20px; ">People</h4>
-        <h6 style="margin-left:8.5px; font-size:18px;">Students</h6>  
+ 
 
 <ul
 style="margin-left:12.5px;
@@ -211,27 +213,14 @@ padding-top:5px;
 font-size:15px; letter-spacing:0.1px; font-family: Segoe UI;
 ">
  <li style="margin-left:8.5px; font-size:15px; letter-spacing:0.1px; font-family: Segoe UI;
-"><a style="color:#0575e6;"https://adrashid.github.io/personal-webpage/">Adnan Rashid</a>, PhD (2014–2019), <a style="color:#0575e6;" href="http://save.seecs.nust.edu.pk/">SAVe Lab</a>, SEECS, NUST, Pakistan</li>
-<li style="margin-left:8.5px; font-size:15px; letter-spacing:0.1px; font-family: Segoe UI;
-">Syeda Hira Taqdees, MS (2012–2013),<a style="color:#0575e6;" href="http://save.seecs.nust.edu.pk/"> SAVe Lab</a>, SEECS, NUST, Pakistan</li><br>
-</ul>		
-	  
-<h6 style="margin-left:8.5px; font-size:18px;margin-top:-35px;">Professors</h6>		   
-
-	  <ul
-style="margin-left:12.5px;
-text-align:justify;
-padding-left:20px;
-padding-right:35px;
-padding-bottom:5px;
-padding-top:5px;
-
-font-size:15px; letter-spacing:0.1px; 
-	font-family: Segoe UI;
-">
+"><a style="color:#0575e6;"https://adrashid.github.io/personal-webpage/">Adnan Rashid</a>, SEECS, NUST, Pakistan</li>
  <li style="margin-left:8.5px; font-size:15px; letter-spacing:0.1px; font-family: Segoe UI;
 "><a style="color:#0575e6;" href="http://ohasan.seecs.nust.edu.pk/">Osman Hasan</a>, SEECS, NUST, Pakistan</li>	
-</ul>		   
+<li style="margin-left:8.5px; font-size:15px; letter-spacing:0.1px; font-family: Segoe UI;
+">Sa'ed Abed,<a style="color:#0575e6;" href="https://www.researchgate.net/profile/Saed-Abed"> Kuwait University</a>, Kuwait</li><br>
+</ul>		
+	  
+	   
 				   
 				   
 				   
@@ -250,38 +239,17 @@ padding-top:10px;
 font-size:15px; letter-spacing:0.1px; 
 	font-family: Segoe UI;
 ">
-<li style="margin-bottom:10px;"><strong>A. Rashid</strong>,<a style="color:#0575e6;" href="http://save.seecs.nust.edu.pk/Downloads/thesis_arashid.pdf"> “Formalization of Transform Methods using Higher-order-logic Theorem Proving”</a>, PhD Thesis, National University of Sciences and Technology (NUST), Islamabad, Pakistan. 2019.
+<li style="margin-bottom:10px;"><strong>A. Rashid</strong>, Sa'ed Abed and O. Hasan,
+	<a style="color:#0575e6;" href="https://github.com/adrashid/personal-webpage/blob/main/papers/JASP_2022.pdf"> 
+		“Formal Analysis of 2D Image Processing Filters using Higher-order-logic Theorem Proving”</a>, 
+	EURASIP Journal on Advances in Signal Processing, Springer, No. 53, pp. 1-18, DOI:10.1186/s13634-022-00882-3, 2022.
 </li>
-
-<li style="margin-bottom:10px;"><strong>A. Rashid</strong> and O. Hasan,<a style="color:#0575e6;" href="http://save.seecs.nust.edu.pk/pubs/2017/JSC_2017.pdf"> “Formal Analysis of Continuous-time Systems using Fourier Transform”</a>, Journal of Symbolic Computation, Elsevier, Volume 90, pp. 65-88, 2019.</li>
-
-<li style="margin-bottom:10px;"><strong>A. Rashid</strong> and O. Hasan,<a style="color:#0575e6;" href="http://save.seecs.nust.edu.pk/pubs/2018/JAL_2018.pdf"> “Formalization of Lerch’s Theorem using HOL Light”</a>, Journal of Applied Logic, IfCoLog Journal of Logics and their Applications, Volume 5, Number 8, pp. 1623-1652, 2018.
-</li>
-
-<li style="margin-bottom:10px;"><strong>A. Rashid</strong>, U. Siddique and O. Hasan,<a style="color:#0575e6;" href="http://save.seecs.nust.edu.pk/pubs/2018/SEFM_2018.pdf"> “Formal Verification of Platoon Control Strategies”</a>, International Conference on Software Engineering and Formal Methods (SEFM-2018), Springer, LNCS 10886, Toulouse, France, pp. 223-238.
-</li>
-
-<li style="margin-bottom:10px;"><strong>A. Rashid</strong> and O. Hasan,<a style="color:#0575e6;" href="http://save.seecs.nust.edu.pk/pubs/2017/ICFEM_2017.pdf"> “Formal Analysis of Linear Control Systems using Theorem proving”</a>, International Conference on Formal Engineering Methods (ICFEM-2017), Springer, LNCS 10610, Xian, China, pp. 345-361.
-</li>
-
-<li style="margin-bottom:10px;"><strong>A. Rashid</strong> and O. Hasan, <a style="color:#0575e6;" href="http://save.seecs.nust.edu.pk/pubs/2017/CICM_2017.pdf">“Formalization of Transform Methods using HOL Light”</a>, Conference on Intelligent Computer Mathematics (CICM-2017), Springer, LNAI 10383, Edinburgh, UK, pp. 319-332.
-</li>
-
-
-<li style="margin-bottom:10px;">S.H. Taqdees and O. Hasan,<a style="color:#0575e6;" href="http://save.seecs.nust.edu.pk/pubs/2017/DTnA_2017.pdf"> “Formally Verifying Transfer Functions of Linear Analog Circuits”</a>, IEEE Design & Test, Volume 34, Issue 5, pp. 30-37, 2017.</li>
-
-<li style="margin-bottom:10px;"><strong>A. Rashid</strong> and O. Hasan,<a style="color:#0575e6;" href="http://save.seecs.nust.edu.pk/pubs/2016/ITP_2016.pdf"> “On the Formalization of Fourier Transform in Higher-order Logic”</a>, Interactive Theorem Proving (ITP 2016), Springer, LNCS 9807, Nancy, France, pp. 483-490. (Rank A, CORE)
-</li>
-
-
-<li style="margin-bottom:10px;">S.H. Taqdees and O. Hasan,<a style="color:#0575e6;" href="http://save.seecs.nust.edu.pk/pubs/LPAR_2013.pdf"> “Formalization of Laplace Transform Using the Multivariate Calculus Theory of HOL Light”</a>, Logic for Programing Artificial Intelligence and Reasoning (LPAR 2013), Springer LNCS 8312, Stellenbosch, South Africa, pp. 744–758. (Rank A, CORE)
-</li>
-
-
-<li style="margin-bottom:10px;">S.H. Taqdees,<a style="color:#0575e6;" href="http://save.seecs.nust.edu.pk/Downloads/thesis_hira.pdf"> “Formalization of Laplace Transform using the Multivariable Calculus Theory of HOL Light”</a>, Masters Thesis, National University of Sciences and Technology (NUST), Islamabad, Pakistan. 2013.
-</li>
-
-
+	
+<li style="margin-bottom:10px;"><strong>A. Rashid</strong>, Sa'ed Abed and O. Hasan,
+	<a style="color:#0575e6;" href="http://save.seecs.nust.edu.pk/pubs/2017/JSC_2017.pdf"> 
+		“Formal Stability Analysis of Two-dimensional Digital Image Processing Filters”</a>, 
+	Journal of Symbolic Computation, Elsevier, Volume 90, pp. 65-88, 2019.</li>
+A. Rashid, S. Abed and O. Hasan (2023). Formal Stability Analysis of Two-dimensional Digital Image Processing Filters. International Congress on Information and Communication Technology (ICICT), Lecture Notes in Networks and Systems (LNNS), Springer, Vol. 693, pp: 583-591, London, UK.
 
 </ol>
 
@@ -326,7 +294,7 @@ font-size:15px; letter-spacing:0.1px;
 		</div>
 	  </div>
 
-      <center><p style="color:black; " >Last updated on Aug 13, 2022</br>
+      <center><p style="color:black; " >Last updated on Apr 02, 2024</br>
       &copy 2024 - Hardware Verification Group (HVG) <br> Design Inherited from <a style="color:#006699" href="https://comp-physics.group/">Comp.Physics @ GT CSE</a></p></center>
 	</div>
   </div>
